@@ -7,7 +7,7 @@ export const config = {
   reasoningEffort: process.env.REASONING_EFFORT || '',
   skillId: process.env.ALICE_SKILL_ID || '',
   webhookSecret: process.env.ALICE_WEBHOOK_SECRET || '',
-  waitForAnswerMs: 2400,
+  waitForAnswerMs: 3200,
   maxHistory: 20,
   systemPrompt: process.env.SYSTEM_PROMPT || `Ты голосовой помощник внутри Яндекс Станции. Отвечай по-русски, дружелюбно, точно и по делу.
 Ответ зачитывается голосом: без markdown, таблиц, эмодзи и длинных URL.
